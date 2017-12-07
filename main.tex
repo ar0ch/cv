@@ -23,13 +23,12 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
+\usepackage{etaremune}
 \usepackage[scale=0.85]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
@@ -38,20 +37,16 @@
 %	NAME AND CONTACT INFORMATION SECTION
 %----------------------------------------------------------------------------------------
 
-\firstname{Ghizlane} % Your first name
-\familyname{LACHGAR} % Your last name
+\firstname{Aroon} % Your first name
+\familyname{Chande} % Your last name
 
 % All information in this block is optional, comment out any lines you don't need
 %\title{Curriculum Vitae}
-\address{2 rue Fran\c cois Verny}{Brest, France 29806}
-\mobile{(+33) 7 86 33 40 99}
-%\phone{(000) 111 1112}
-%\fax{(000) 111 1113}
-\email{ghizlane.lachgar@ensta-bretagne.org}
-%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
-%\extrainfo{additional information}
-%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
-\quote{Seeking a Job Opportunity or a PhD Placement by the 10th of September - 23 years old}
+\address{}{Atlanta, GA 30318}
+\mobile{(515) 981-6868}
+\email{mail@aroonchande.com}
+\homepage{https://aroonchande.com}{https://aroonchande.com} 
+
 
 %----------------------------------------------------------------------------------------
 
@@ -65,11 +60,10 @@
 
 \section{Education}
 
-\cventry{2012--2015}{ENSTA Bretagne College - Telcommunications Major}{}{}{}{French Graduate and Post Graduate Engineering School and Research Institute - GRANDE ECOLE\\
-Graduation September 2015}  % Arguments not required can be left empty
-
-\cventry{2009--2012}{Preparatory Classes}{Lyc\'{e}e Mohammed V}{Casablanca}{}{Intensive undergraduate-level preparation in advanced Mathematics and Science for  competitive entrance examinations to French Graduate Engineering Schools}
-\cventry{2009}{High School Diploma in Science and Mathematics}{Lyc\'{e}e Al Khawarizmy}{Casablanca}{}{With honors}
+\cventry{Aug 2017 -- present}{\textit{(In progress)} Ph.D. - Bioinformatics }{\textsc{Georgia Institute of Technology}}{Atlanta}{GA}{}  
+\cventry{Dec 2016}{Master of Science - Bioinformatics }{\textsc{Georgia Institute of Technology}}{Atlanta}{GA}{}  
+\cventry{May 2015}{Bachelor of Science - Microbiology}{\textsc{University of Iowa}}{Iowa City}{IA}{}
+\cventry{May 2013}{Bachelor of Science - Biology}{\textsc{University of Iowa}}{Iowa City}{IA}{}
 
 
 %----------------------------------------------------------------------------------------
@@ -78,77 +72,100 @@ Graduation September 2015}  % Arguments not required can be left empty
 
 \section{Experience}
 
-\cventry{March--September 2015}{Final Project Internship}{\textsc{CGG (EX CGG VERITAS)} Massy, France}{\small ENSTA Bretagne}{}{Developping a "Control and Command System" demonstrator (Hardware and Software) for Land and marine acquisition surveys with special reference to communication infrastructure in remotes areas and Data Centric Publish Subscribe (DCPS) middleware. 
-\textit{Matlab/C++/Java/MOOS-IvP environments}}
+\cventry{May 2016 -- Present}{Bioinformatics Scientist}{\textsc{Applied Bioinformatics Laboratory}}{\small IHRC Inc}{Atlanta, GA}{
+\textit{http://abil.ihrc.com}
+\begin{itemize}
+\item Development and maintenance of analytics platforms 
+\item Development and maintenance of custom bioinformatics databases
+\item Teaching bioinformatics courses
+\end{itemize}
+\textit{Languages used: Bash/Perl/R/Python/C++/HTML/CSS/SQL}}
 
-\cventry{July--September 2014}{Assistant Engineer Internship}{\textsc{Lab-STICC} UMR CNRS 6285}{\small ENSTA Bretagne}{}{Empirical Mode Decomposition and Blind Source Separation Methods for Antijamming. 
-\textit{Matlab/C environment}}
+\cventry{May 2016 -- Present}{Graduate Student}{\textsc{Jordan Lab}}{\small Georgia Institute of Technology}{Atlanta, GA}{
+\textit{http://jordan.biology.gatech.edu}
+\begin{itemize}
+\item Studying the effects of human ancestry on disease burden in Colombia and South America 
+\item Teaching and administrating classes in the Bioinformatics Master’s program
+\item Development of bacterial typing schemes in collaboration with the Centers for Disease Control and Prevention
+\end{itemize}
+\textit{Languages used: Bash/Perl/R/Python}}
 
-\cventry{October--June 2014}{Smart Wheelchair Control using EEG}{\small ENSTA Bretagne}{}{}{Developing a Low Cost EOG Signal Interface for a Smart Wheelchair with High Accuracy and Reliability. \textit{Matlab/Python environment}}
+\cventry{Aug 2015 -- May 2016}{Graduate Student Research}{\textsc{Hammer Lab}}{\small Georgia Institute of Technology}{Atlanta, GA}{
+\textit{http://www.hammerlab.biology.gatech.edu/}
+\begin{itemize}
+\item Development and maintenance of \textit{vibriocholera.com} 
+\item \textit{Vibrio cholerae} NGS bioinformatic analysis
+\item Development of webtool for Type VI Secretion System annotation
+\end{itemize}
+\textit{Languages used: Bash/Perl/R/Python}}
 
-\cventry{July--August 2013}{Industrial Placement}{Hypios SAS}{Paris}{}{Database and Customer Relationship Management.}
+\cventry{Dec 2011 -- July 2015}{Research Assistant}{\textsc{Apicella Lab}}{\small University of Iowa}{Iowa City, IA}{
+\begin{itemize}
+\item Development of expression and purification protocols for NMR and x-ray crystallography study of \textit{Haemophilus influenzae} nuclease in \textit{E. coli} 
+\item Screening and data collection on crystallized nuclease in-house and Synchrotron radiation (4.2.2 beamline at ALS, Berkeley)
+\item Biological assays for protein activity, targets and pH dependence
+\item Biofilm, immunoassay and confocal microscopy
+\end{itemize}
+\textit{Languages used: Bash/Perl}}
 
-\cventry{2012}{Supervised Personal Work}{}{Lyc\'{e}e Mohammed V}{}{Implementing a Best-Routing ADA Algorithm based on Paris Metro. \textit{ADA environment}}
+\cventry{May 2011 -- May 2013}{Protein Crystallography Core Staff}{Carver College of Medicine}{Unversity of Iowa}{Iowa City, IA}{
+\begin{itemize}
+\item Contracted protein purification and characterization
+\item User training for protein expression, purification and crystallization 
+\item Development of custom protocols for in-house robotic liquid handlers
+\end{itemize}
+\textit{Languages used: Bash}}
 
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer skills}
-
-\cvitem{Basic}{VHDL, UML}
-\cvitem{Intermediate}{ADS, \LaTeX, OpenOffice, Linux, Microsoft Windows, OpenGL, OpenCV, ADA, HTML}
-\cvitem{Advanced}{\textsc{java}, \textsc{Matlab}, Python, C/C++}
-
-
-%----------------------------------------------------------------------------------------
-%	LANGUAGES SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Languages}
-\begin{small}
-\cvitemwithcomment{Arabic}{Native Speaker}{}
-\cvitemwithcomment{French}{Near Native}{excellent command}
-\cvitemwithcomment{English}{Near Native}{excellent command}
-\cvitemwithcomment{Chinese}{Intermediate}{good working knowledge}
-\cvitemwithcomment{Japanese}{Intermediate}{good working knowledge}
-\end{small}
+\pagebreak
+\section{Skills}
+\subsection{Computational}
+\cvitem{Proficient}{Bash, Perl, Python, R, Unix systems administration}
+\cvitem{Familiar}{C/C++, HTML, CSS, SQL}
+\cvitem{NGS}{DNA-seq, RNA-seq, microarray}
+\cvitem{'Omics}{Analysis of genomics, transciptomics, metabolomics and proteomics}
+\cvitem{Development}{- Bacterial typing and identification tools using NGS data \newline- Automated systems for bioinformatics analysis and information management}
+\cvitem{Robotics}{Liquid handlers (Mosquito, TECAN, Alchemist platform),  Microscopy (Rock Imager), and other programmable robotics platforms}
+\subsection{Wet Lab}
+\cvitem{Pathogens}{Collection and handling of biological samples}
+\cvitem{FPLC/HPLC}{Affinity column, ionic / hydrophobic chromatography}
+\cvitem{Microscopy}{Confocal, Light, SEM}
+\cvitem{Genetics}{PCR and cell line mutant development}
 
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
-%\bigskip
-
-\section{Interests}
-
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-
-\cvlistdoubleitem{Trecking}{Robotics (NAO Junior Developer)}
-%\cvlistdoubleitem{Robotics}{}
 
 
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
+\section{Posters and Presentations}
 
-% To remove the cover letter, comment out this entire block
+\begin{etaremune}
+\item \textbf{Chande, A.T.}, Rishishwar, L., Watve, S., Jordan, I.K., Hammer, B.K. (2015). Genomic analysis of Type VI secretion systems of \textit{Vibrio cholerae}. 10th International Conference on Bioinformatics, Atlanta, GA
+\end{etaremune}
 
-%\clearpage
+\section{Awards and Honors}
+\cventry{Summer 2016}{Graduate Research Award}{\textsc{Jordan lab}}{Georgia Institute of Technology}{Alanta, GA}{Reclassification of Non-typeable \textit{Haemophilus spp.}.}
 
-%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Sir or Madam,} % Opening greeting
-%\closing{Sincerely yours,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+\section{Publications}
 
-%\makelettertitle % Print letter title
+\begin{etaremune}
+\item \textbf{Chande, A.T.}, Rowell, J., Rishishwar, L., Conley, A.B., Norris, E.T., Valderrama-Aguirre, A., Medina-Rivas, M., Jordan, I.K. (2017). Influence of genetic ancestry and socioeconomic status on type 2 diabetes in the diverse Colombian populations of Chocó and Antioquia. Scientific Reports. doi: 10.1038/s41598-017-17380-4
+\item Dale, R., Grüning, B., Sjödin, A., Rowe, J., Chapman, B. A., Tomkins-Tinch, C. H., . . . \textbf{Chande, A. T.}, . . . Köster, J. (2017). Bioconda: A sustainable and comprehensive software distribution for the life sciences. bioRxiv. doi:10.1101/207092
+\item Espitia, H, \textbf{Chande, A. T.}, Jordan, I. K., Rishishwar, L. (2017). Method of sequence typing with in silico aptamers from a Next Generation Sequencing platform. Patent Pending.
+\item Post, D. M. B., Slütter, B., Schilling, B., \textbf{Chande, A. T}., Rasmussen, J. A., Jones, B. D., . . . Apicella, M. A. (2017). Characterization of Inner and Outer Membrane Proteins from Francisella tularensis Strains LVS and Schu S4 and Identification of Potential Subunit Vaccine Candidates. mBio, 8(5). doi:10.1128/mBio.01592-17
+\item Topaz, N., Mojib, N., \textbf{Chande, A. T.}, Kubanek, J., \& Jordan, I. K. (2017). RampDB: a web application and database for the exploration and prediction of receptor activity modifying protein interactions. Database, 2017, bax067-bax067. doi:10.1093/database/bax067
+\item Norris, E. T., Rishishwar, L., Wang, L., Conley, A. B., \textbf{Chande, A. T.}, Dabrowski, A. M., . . . Jordan, I. K. (2017). Assortative mating on ancestry-variant traits in admixed Latin American populations. bioRxiv. doi:10.1101/177634
+\item Post, D. M. B., Schilling, B., Reinders, L. M., D’Souza, A. K., Ketterer, M. R., Kiel, S. J., . . . \textbf{Chande, A. T.}, . . . Gibson, B. W. (2017). Identification and characterization of AckA-dependent protein acetylation in Neisseria gonorrhoeae. PLOS ONE, 12(6), e0179621. doi:10.1371/journal.pone.0179621
+\item Watve, S. S., \textbf{Chande, A. T.}, Rishishwar, L., Mariño-Ramírez, L., Jordan, I. K., \& Hammer, B. K. (2016). Whole-Genome Sequences of 26 Vibrio cholerae Isolates. Genome Announcements, 4(6). doi:10.1128/genomeA.01396-16
+\item Cho, C.,\textbf{ Chande, A.}, Gakhar, L., Bakaletz, L. O., Jurcisek, J. A., Ketterer, M., . . . Apicella, M. A. (2015). Role of the Nuclease of Nontypeable Haemophilus influenzae in Dispersal of Organisms from Biofilms. Infection and Immunity, 83(3), 950-957. doi:10.1128/iai.02601-14
+\item Apicella, M.A., Gakhar, L., Chande, A.T.  Novel Thermonuclease from Haemophilus Influenzae and Uses Thereof in Industry and Scientific Research. Patent Pending.
+\end{etaremune}
 
-%\lipsum[1-3] % Dummy text
+\section{Manuscripts in preparation}
 
-%\makeletterclosing % Print letter signature
-
-%----------------------------------------------------------------------------------------
+\begin{etaremune}
+\item \textbf{Chande, A.T.}, Rishishwar, L., Watve, S., Jordan, I.K., Hammer, B.K. Computational characterization of Type VI Secretion Systems in Vibrio cholerae
+\item Cho, C.,\textbf{Chande, A.T.}, Gakhar, L., Hunt, J., Ketterer, M., Apicella, M. A. Characterization of a nontypeable \textit{Haemophilus influenzae} Thermonuclease
+\end{etaremune}
 
 \end{document}
