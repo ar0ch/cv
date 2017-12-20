@@ -127,7 +127,7 @@
   \RequirePackage[unicode]{hyperref}% unicode is required for unicode pdf metadata
   \hypersetup{
     breaklinks,
-    baseurl       = http://,
+    baseurl       = https://,
     pdfborder     = 0 0 0,
     pdfpagemode   = UseNone,% do not show thumbnails or bookmarks on opening
     pdfstartpage  = 1,
