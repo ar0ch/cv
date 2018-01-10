@@ -127,7 +127,7 @@
   \RequirePackage[unicode]{hyperref}% unicode is required for unicode pdf metadata
   \hypersetup{
     breaklinks,
-    baseurl       = https://,
+    baseurl       = http://,
     pdfborder     = 0 0 0,
     pdfpagemode   = UseNone,% do not show thumbnails or bookmarks on opening
     pdfstartpage  = 1,
@@ -365,8 +365,8 @@
 % usage: \httplink[optional text]{link}
 \newcommand*{\httplink}[2][]{%
   \ifthenelse{\equal{#1}{}}%
-    {\href{http://#2}{#2}}%
-    {\href{http://#2}{#1}}}
+    {\href{#2}{#2}}%
+    {\href{https://#2}{#1}}}
 
 % makes an email hyperlink
 % usage: \emaillink[optional text]{link}
