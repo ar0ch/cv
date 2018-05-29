@@ -288,7 +288,7 @@
 \newcommand*{\sectionfont}{}
 \newcommand*{\subsectionfont}{}
 \newcommand*{\hintfont}{}
-\newcommand*{\doi}[1]{\href{https://dx.doi.org/#1}{doi: #1}}
+%% \newcommand*{\doi}[1]{\href{https://dx.doi.org/#1}{doi: #1}}
 % styles
 \newcommand*{\namestyle}[1]{{\namefont#1}}
 \newcommand*{\titlestyle}[1]{{\titlefont#1}}
