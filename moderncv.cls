@@ -218,6 +218,7 @@
 \newcommand*{\email}[1]{\def\@email{#1}}
 \newcommand*{\homepage}[2]{\def\@homepage{#1}\def\@homepagetitle{#2}}
 \newcommand*{\homepageII}[2]{\def\@homepageII{#1}\def\@homepagetitleII{#2}}
+
 % colors
 \definecolor{color0}{rgb}{0,0,0}% main default color, normally left to black
 \definecolor{color1}{rgb}{0,0,0}% primary theme color

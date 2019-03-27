@@ -304,6 +304,11 @@
 	{\makenewline\homepagesymbol\httplink{\@homepage}}%
 	{\makenewline\homepagesymbol\httplink[\@homepagetitle]{\@homepage}}}% 
       \ifthenelse{\isundefined{\@extrainfo}}{}{\makenewline\@extrainfo}}}%
+    \ifthenelse{\isundefined{\@homepageII}}{}{%
+	\ifthenelse{\equal{\@homepagetitleII}{}}% \homepagetitle could be empty
+	{\makenewline\homepagesymbol\httplink{\@homepage}}%
+	{\makenewline\homepagesymbol\httplink[\@homepagetitleII]{\@homepageII}}% 
+      \ifthenelse{\isundefined{\@extrainfo}}{}{\makenewline\@extrainfo}}}
   % ensure no extra spacing after \makelettertitle due to a possible blank line
 %  \ignorespacesafterend% not working
   \par\vspace{-\baselineskip}\vspace{-\parskip}}
